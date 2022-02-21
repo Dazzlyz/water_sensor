@@ -3,6 +3,7 @@ sens = GroveMoistureSensor(2)
 
 readings = {'Water_level': ''}
 reading = sens.moisture  
-reading = str(reading)
-readings['Water_level'] = reading
-print (readings)
+
+sens = GroveMoistureSensor(2)
+reading = sens.moisture       
+print((reading,))
