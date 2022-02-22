@@ -22,13 +22,12 @@ def index():
     try: 
         readings = Reading.query.order_by(Reading.id).all()           
         reading_text = {
-            'ID' : [],
-            'Water level' : []
+            'ID' : [],            
         }     
         
         for reading in readings:
-            reading_text['ID'].append(f'{reading.id}')
-            reading_text['Water level'].append(f'{reading.level}')            
+            reading_text['ID'].append({reading.id : reading.level})
+                     
             
         return  jsonify(reading_text)
 
