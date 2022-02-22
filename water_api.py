@@ -1,43 +1,42 @@
+from ast import dump
 from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy.sql import text
+import os
 import json
 
-
+# fix database in own file + class
 app=Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///readings.db'
+
 db = SQLAlchemy(app)
 
-class Levels(db.Model):
+class Reading(db.Model):
+    __tablename__ = 'readings'
     id = db.Column(db.Integer, primary_key=True)
     level = db.Column(db.Integer)
 
 @app.route('/')
 def index():
-    return 'Welcome!'
+    try: 
+        readings = Reading.query.order_by(Reading.id).all()           
+        reading_text = {
+            'ID' : [],
+            'Water level' : []
+        }     
+        
+        for reading in readings:
+            reading_text['ID'].append(f'{reading.id}')
+            reading_text['Water level'].append(f'{reading.level}')            
+            
+        return  jsonify(reading_text)
 
-@app.route('/levels')
-def get_readings():
-    readings = Levels.query.all()
-
-    output =[]
-    for reading in readings:
-        level_data = {'level': reading.level}
-        	
-        output.append(level_data)
-    return json.dumps(output)
-
-@app.route('/levels/<id>')
-def get_reading(id):
-    reading = Levels.query.get_or_404(id)
-    return {'level' : Levels.level}
-
-@app.route('/levels', methods=['POST'])
-def add_level():
-    level = Levels(level=request.json['level'])
-    db.session.add(level)
-    db.session.commit()
-    return {'id': level.id}
+    except Exception as e:
+            # e holds description of the error
+            error_text = "<p>The error:<br>" + str(e) + "</p>"
+            hed = '<h1>Something is broken.</h1>'
+            return hed + error_text
 
 if __name__ == '__main__':
     app.run(debug=True)
