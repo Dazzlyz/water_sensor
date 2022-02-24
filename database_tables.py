@@ -25,7 +25,9 @@ def main():
 
     sql_create_levels_table = """ CREATE TABLE IF NOT EXISTS readings (
                                         id integer PRIMARY KEY,
-                                        level integer NOT NULL                           
+                                        date text,
+                                        level integer NOT NULL,    
+                                        temp real                   
                                     ); """
 
     # create a database connection

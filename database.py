@@ -1,6 +1,8 @@
 import sqlite3
 from sqlite3 import Error
 from grove_moisture_sensor import GroveMoistureSensor
+from temp import read_temperature
+from date import get_date
 
 def create_connection(db_file):
     
@@ -10,13 +12,11 @@ def create_connection(db_file):
     except Error as e:
         print(e)
     return conn 
-    # finally:
-        # if conn:
-            # conn.close()
+    
 
 def add_reading(conn, reading):
-    sql = ''' INSERT INTO readings(level)
-              VALUES(?) '''    
+    sql = ''' INSERT INTO readings(date, level, temp)
+              VALUES(?,?,?) '''    
     cur = conn.cursor()   
     cur.execute(sql, reading)
     conn.commit()
@@ -28,8 +28,13 @@ def main():
     conn = create_connection(database)    
     with conn:     
         sens = GroveMoistureSensor(2)
-        reading = sens.moisture       
-        add_reading(conn, (reading,))
+        date = get_date()        
+        temp = read_temperature()
+        temp = str(temp)
+        moisture = sens.moisture
+        reading = (date, moisture, temp)
+        
+        add_reading(conn, reading)
 
 if __name__ == '__main__':
     main()
