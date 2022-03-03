@@ -1,8 +1,9 @@
-from ast import dump
 from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
+from flask_cors import CORS
 
 app=Flask(__name__)
+CORS(app)
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///readings.db'
 
@@ -27,13 +28,12 @@ def index():
 def get_all():
     try: 
         readings = Reading.query.order_by(Reading.id).all()                 
-        reading_text = {
-            'Readings' : [],            
-        }     
+        reading_text = []                  
+          
         
         for reading in readings:
-            reading_text['Readings'].append({'Id': reading.id, 'Time': reading.date, 
-            'Level': reading.level, 'Temperature': reading.temp})                    
+            reading_text.append({'id': reading.id, 'time': reading.date, 
+            'level': reading.level, 'temperature': reading.temp})                    
             
         return  jsonify(reading_text)
 
@@ -48,13 +48,12 @@ def get_last_2_hours():
     try: 
         readings = Reading.query.order_by(Reading.id.desc()).limit(12)
        
-        reading_text = {
-            'Readings' : [],            
-        }     
+        reading_text = []         
+            
         
         for reading in readings:
-            reading_text['Readings'].append({'Id': reading.id, 'Time': reading.date, 
-            'Level': reading.level, 'Temperature': reading.temp})                    
+            reading_text.append({'id': reading.id, 'time': reading.date, 
+            'level': reading.level, 'temperature': reading.temp})                    
             
         return  jsonify(reading_text)
 
@@ -70,13 +69,11 @@ def get_last_24_hours():
     try: 
         readings = Reading.query.order_by(Reading.id.desc()).limit(144)
        
-        reading_text = {
-            'Readings' : [],            
-        }     
+        reading_text = []
         
         for reading in readings:
-            reading_text['Readings'].append({'Id': reading.id, 'Time': reading.date, 
-            'Level': reading.level, 'Temperature': reading.temp})                  
+            reading_text.append({'id': reading.id, 'time': reading.date, 
+            'level': reading.level, 'temperature': reading.temp})                  
 
         return  jsonify(reading_text)
     
@@ -92,13 +89,11 @@ def get_last_48_hours():
     try: 
         readings = Reading.query.order_by(Reading.id.desc()).limit(288)
        
-        reading_text = {
-            'Readings' : [],            
-        }     
+        reading_text = []
         
         for reading in readings:
-            reading_text['Readings'].append({'Id': reading.id, 'Time': reading.date, 
-            'Level': reading.level, 'Temperature': reading.temp})                    
+            reading_text.append({'id': reading.id, 'time': reading.date, 
+            'level': reading.level, 'temperature': reading.temp})                    
             
         return  jsonify(reading_text)
 
@@ -113,8 +108,8 @@ def get_last_48_hours():
 @app.route('/recent/<id>')
 def get_reading(id):
     reading = Reading.query.get_or_404(id)
-    return jsonify({'Id': reading.id, 'Time': reading.date, 
-    'Level': reading.level, 'Temperature': reading.temp,} )
+    return jsonify({'id': reading.id, 'time': reading.date, 
+    'level': reading.level, 'temperature': reading.temp,} )
 
 
 if __name__ == '__main__':
