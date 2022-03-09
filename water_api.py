@@ -20,7 +20,7 @@ class Reading(db.Model):
 @app.route('/')
 def index():
     return str('Hello! /readings for all readings,'
-            '/recent for 2 hours of readings, /recent1 for 1 day)'
+            '/recent for 2 hours of readings, /recent1 for 1 day, /recent2 for 2 days, '
             '/recent/id for specific id')
 
 

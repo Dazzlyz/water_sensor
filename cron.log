@@ -197,3 +197,523 @@ Traceback (most recent call last):
   File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
     from version import __version__
 ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
+1.0.2
+2.5.1
+Traceback (most recent call last):
+  File "/home/pi/Documents/tests/water_sensor/message.py", line 3, in <module>
+    import telegram_send
+  File "/home/pi/Documents/tests/water_sensor/telegram_send.py", line 34, in <module>
+    from version import __version__
+ImportError: cannot import name '__version__' from 'version' (/home/pi/Documents/tests/water_sensor/version.py)
