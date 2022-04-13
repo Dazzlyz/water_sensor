@@ -1,6 +1,6 @@
 import sqlite3
 from sqlite3 import Error
-from grove_moisture_sensor import GroveMoistureSensor
+from lib.grove_moisture_sensor import GroveMoistureSensor
 from temp import read_temperature
 from date import get_date
 

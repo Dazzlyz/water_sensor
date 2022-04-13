@@ -1,6 +1,6 @@
-from grove_moisture_sensor import GroveMoistureSensor
+from lib.grove_moisture_sensor import GroveMoistureSensor
 import time
-import telegram_send
+import lib.telegram_send as telegram_send
 
 def send_messages():
     sens = GroveMoistureSensor(2)

@@ -1,4 +1,4 @@
-from grove_moisture_sensor import GroveMoistureSensor
+from lib.grove_moisture_sensor import GroveMoistureSensor
 import time
 
 def read_data():
