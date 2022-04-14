@@ -20,6 +20,7 @@ def create_table(conn, create_table_sql):
     except Error as e:
         print(e)
 
+# creating tables in db if none exist before
 def main():
     database = r"/home/pi/Documents/tests/water_sensor/readings.db"
 
@@ -30,12 +31,11 @@ def main():
                                         temp real                   
                                     ); """
 
-    # create a database connection
+   
     conn = create_connection(database)
 
-    # create tables
-    if conn is not None:
-        # create projects table
+   
+    if conn is not None:        
         create_table(conn, sql_create_levels_table)
     else:
         print("Error! cannot create the database connection.")

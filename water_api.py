@@ -16,14 +16,14 @@ class Reading(db.Model):
     level = db.Column(db.Integer)
     temp = db.Column(db.String)
 
-
+# homepage
 @app.route('/')
 def index():
     return str('Hello! /readings for all readings,'
             '/recent for 2 hours of readings, /recent1 for 1 day, /recent2 for 2 days, '
             '/recent/id for specific id')
 
-
+# creating routes for specific queries, 
 @app.route('/readings')
 def get_all():
     try: 
@@ -103,8 +103,7 @@ def get_last_48_hours():
             hed = '<h1>Something is broken.</h1>'
             return hed + error_text
 
-
-
+#return data in useable JSON format
 @app.route('/recent/<id>')
 def get_reading(id):
     reading = Reading.query.get_or_404(id)
